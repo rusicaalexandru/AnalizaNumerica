@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        body{
+            background-color: gray;
+        }
+        .table-container {
+        }
+        table {
+            border-collapse: collapse;
+        }
+        table * {
+            border: 3px solid #000;
+        }
+        table tr:nth-child(odd) {
+            background: rgba(47, 3, 58, 0.555)
+        }
+    </style>
+<body>
+<div id="container"></div>
+<div class="table-container">
+    <table cellspacing="0">
+        <thead>
+        <tr>
+            <th>Metoda</th>
+            <th>Aproximatia</th>
+            <th>Nr</th>
+            <th>Val. functiei</th>
+        </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+    </table>
+</div>
+
+<script src="./Equations.js"></script>
+</body>
+</html>
